@@ -250,7 +250,8 @@ local highlight_groups = {
 
 	--[[ 4.1.2. Identifiers]]
 	Identifier = {fg=blue},
-	Function   = {fg=green, style='bold'},
+	--[[ Function   = {fg=green, style='bold'}, ]]
+	Function   = {fg=green_dark, style='bold'},
 	TSVariableBuiltin = {fg=orange},
 	TSConstBuiltin = {fg=orange, style='italic'},
 	TSAttribute = {fg=blue, style='italic'},
